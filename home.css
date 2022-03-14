@@ -1,0 +1,84 @@
+body, html {
+    width: 100%; 
+    height: 100%; 
+    background-color:  #c5b796; 
+    overflow: hidden; 
+    overflow-x: hidden
+}
+
+body {
+    position: relative;
+}
+
+.wrapper {
+    width: 70vmin; 
+    height: 70vmin; 
+    margin: 0 auto; 
+    background-color: #615751; 
+    border-radius: 15px;
+}
+
+.grid {
+    width: 100%;
+    position: relative;
+}
+
+.cell {
+    position: relative;
+    width: 15vmin;
+    height: 15vmin;
+    background-color: #989890;
+    margin: 2vmin 2vmin 0 0;
+    font-size: 60px;
+    text-align: center;
+    font-weight:bold;
+    color: white;
+    float: left;
+    border-radius: 10px;
+}
+
+.cell:nth-child(4n+1) {
+    margin-left: 2vmin;
+}
+
+.score-container {
+    text-align:left;    
+    font-size: 17px;
+    padding-right: 40px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: Arial Black;
+    color: #989890;
+    width: 2.5%;
+    height: 3.5%;
+    background-color: #615751;
+    border-radius: 10px;
+}
+
+#reset {
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    background-color:#615751;
+    border: none;
+    font-family: Arial Black;
+    color: #989890;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+
+.score-text {
+    margin-left:auto; margin-right:0;
+}
+
+.title {
+    text-align: center;
+    font-size: 45px;
+    margin: 0;
+    font-family: Arial Black;
+    color: white;
+}
