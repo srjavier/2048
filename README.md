@@ -1,1 +1,4 @@
-# 2048
+# 2048 Game
+
+TO DO
+- FIX UP FUNCTION
